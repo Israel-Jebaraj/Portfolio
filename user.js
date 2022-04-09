@@ -7,7 +7,7 @@ window.userDetails=[
         name:"Israel Jebaraj"
     }];
 $(document).ready(()=>{
-    userId=parseInt(window.prompt("Enter you name"))-1;
+    userId=parseInt(window.prompt("Enter id"))-1;
     this.changeUserName(userId);
 });
 function changeUserName(userId){
