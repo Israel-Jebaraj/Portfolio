@@ -63,9 +63,15 @@ section{
     color: white;
     letter-spacing: 0.09rem;
     font-weight: 500;
-    box-shadow: 0px 0px 6px 1px rgba(163,155,163,1);
+    /* box-shadow: 0px 0px 6px 1px rgba(163,155,163,1); */
     background-color:var(--home-btn) ;    
     text-transform: uppercase;  
+}
+.home .home-content .description-content a:hover button{
+    cursor: pointer;
+    background-color: white;
+    border:1px solid var(--home-btn);    
+    color:var(--home-btn); 
 }
 .home .home-content .description-content button:active{
     transform: scale(0.95);
