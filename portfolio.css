@@ -1,1 +1,91 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500&display=swap');
+:root{
+    --home-btn:rgb(193, 33, 179);
+    --home-job-role:rgb(159, 43, 159);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;  
+    font-family: 'Poppins', sans-serif;  
+}
+section{
+    height: 90%;
+    width: 100%;
+    /* background-color:rgb(244, 243, 243); */
+}
+.home{
+    height: 100%;
+    width: 100%;
+    padding: 0px 80px;    
+}
+.home .home-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.home .home-content .description-content{
+    width: 70%;
+    height: 100%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;    
+    justify-content: center;     
+}
+.home .home-content .description-content p{
+    font-size: 1.7rem;
+}
+.home .home-content .description-content p span.name-intro,.home .home-content .description-content p span.description-intro{
+    font-size: 1rem;   
+}
+.home .home-content .description-content p span.name{
+    font-size: 2.3rem;
+    font-weight: 600;      
+}
+.home .home-content .description-content p span.job-profile{
+    color:var(--home-job-role);
+    font-weight: 700;
+}
+.home .home-content .description-content button{
+    margin-top: 10px;
+    padding: 10px;
+    border:none;   
+    border-radius: 5px; 
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    letter-spacing: 0.09rem;
+    font-weight: 500;
+    /* box-shadow: 0px 0px 6px 1px rgba(163,155,163,1); */
+    background-color:var(--home-btn) ;    
+    text-transform: uppercase;  
+}
+.home .home-content .description-content a:hover button{
+    cursor: pointer;
+    background-color: white;
+    border:1px solid var(--home-btn);    
+    color:var(--home-btn); 
+}
+.home .home-content .description-content button:active{
+    transform: scale(0.95);
+}
+.home .home-content .description-content button a{
+    text-decoration: none;
+    color: white;
+}
+.home .home-content .image-content .sample-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color:rgb(197, 191, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
