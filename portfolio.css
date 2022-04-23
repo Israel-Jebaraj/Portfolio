@@ -18,6 +18,39 @@ section{
     width: 100%;
     /* background-color:rgb(244, 243, 243); */
 }
+nav{
+    position:sticky;
+    top:0;    
+    height: 10%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    z-index: 10;
+}
+nav .navbar{    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.navbar .logo,.navbar .menu{
+    margin: 0 50px;
+}
+.navbar .logo .logo-name{    
+    font-weight: 500;
+}
+.navbar .menu ul{
+    display: inline-flex;
+}
+.navbar .menu ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.navbar .menu ul li a{
+    text-decoration: none;
+    color:black;
+}
 .home{
     height: 100%;
     width: 100%;
@@ -45,6 +78,7 @@ section{
 }
 .home .home-content .description-content p span.name-intro,.home .home-content .description-content p span.description-intro{
     font-size: 1rem;   
+    opacity: 0.8;
 }
 .home .home-content .description-content p span.name{
     font-size: 2.3rem;
