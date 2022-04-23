@@ -1,4 +1,4 @@
-window.Id=0;
+window.Id=1;
 window.userDetails=[
     {
         name:"Siva sankar",
@@ -11,7 +11,7 @@ window.userDetails=[
         " Having konwledge in web development. Also I'm egar to learn  new technologies.",
     }];
 $(document).ready(()=>{
-    Id=parseInt(window.prompt("Enter id"))-1;
+    // Id=parseInt(window.prompt("Enter id"))-1;
     this.changeUserName();
 });
 function changeUserName(){
