@@ -12,9 +12,9 @@ window.userDetails=[
     }];
 $(document).ready(()=>{
     // Id=parseInt(window.prompt("Enter id"))-1;
-    this.changeUserName();
+    this.changeUserDetails();
 });
-function changeUserName(){
+function changeUserDetails(){
     $(".home .home-content .image-content .sample-img").html(userDetails[Id].name);
     $(".home .home-content .description-content p span.name").html(userDetails[Id].name);
     $(".home .home-content .description-content p span.description-intro").html(userDetails[Id].resumeDescription);     
