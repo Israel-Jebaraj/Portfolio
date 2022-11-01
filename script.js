@@ -6,4 +6,7 @@ $(document).ready(()=>{
         backSpeed:60,
         loop:true
     });
+    $('#homeMenu').click(function(){
+        window.scrollTo(0,0);
+    })
 });

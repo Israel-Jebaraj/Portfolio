@@ -17,7 +17,7 @@
         <div class="logo"><h1 class="logo-name">@{{shortName}}</h1></div>
         <div class="menu">
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li id="homeMenu" class="handCursor"><a>Home</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
         </div>
@@ -28,12 +28,11 @@
         <div class="home-content">
             <div class="description-content">
                 <p><span class="name-intro">Hello, My Name is </span><br><span class="name">@{{name}}</span><br>I'm a <span class="job-profile"></span><br><span class="description-intro">@{{resumeDescription}}</span></p>
-                <a href="./files/Dummy Resume.pdf" download="Resume.pdf"><button><i class="fa-solid fa-arrow-down-to-bracket"></i>Download Resume</button></a>
+                <a href="./assets/ISRAELJEBARAJ_RESUME_SD1.pdf" download="Resume.pdf"><button><i class="fa-solid fa-arrow-down-to-bracket"></i>Download Resume</button></a>
             </div>
             <div class="image-content">
                     <div class="sample-img">
-
-                        @{{name}}
+							<img src="./assets/myImg.png">                        
                     </div>
             </div>
         </div>
